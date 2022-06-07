@@ -1,0 +1,43 @@
+{
+  "name": "cosmic-bot",
+  "version": "1.0.0",
+  "description": "Tracks wins and statistics of NG Cosmic Guild.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "engines": {
+    "node": "16.6.x"
+  },
+  "author": "Melvin",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/voice": "^0.6.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.4.0",
+    "hhmmss": "^1.0.0",
+    "hhmmsstosec": "^1.0.2",
+    "jaro-winkler": "^0.2.8",
+    "libsodium-wrappers": "^0.7.9",
+    "lyrics-finder": "^21.7.0",
+    "mathjs": "^9.4.5",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.5",
+    "node-fetch": "^3.0.0",
+    "node-fetch2": "^1.6.3",
+    "sourcebin": "^4.2.5",
+    "tiny-json-http": "^7.3.0",
+    "util": "^0.12.4",
+    "youtube-search": "^1.1.6",
+    "ytdl-core": "^4.9.1",
+    "ytpl": "^2.2.3"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "node": "^16.13.1"
+  }
+}
